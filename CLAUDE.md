@@ -14,3 +14,6 @@ This repo is part of an 18-repo portfolio coordinated from the `=notes` vault.
   - Skills used by → all repos in the portfolio via Claude Code plugin system
   - Complements → `claude-code-plugins-plus` plugin marketplace (`/Users/jack.reis/Documents/claude-code-plugins-plus/`)
   - Coordinated from → `=notes` vault (`/Users/jack.reis/Documents/=notes/`)
+
+## Repository Remote Policy
+- Repo policy: GitHub is primary `origin` and CI/CD source; GitLab is backup remote (`gitlab`) with GitLab CI disabled.

@@ -38,3 +38,8 @@ This repo is part of an 18-repo portfolio coordinated from the `=notes` vault.
 - Any capability change must include usage docs/examples.
 - Keep plugin/skill APIs stable where possible; note breaking changes explicitly.
 - Preserve provider-agnostic interfaces and adapter boundaries.
+
+## Local Overrides — Command Truth
+- Canonical artifacts are skills/agents/commands; prioritize contract quality.
+- Validation minimum: schema/format conformance + example usability.
+- When adding new capabilities, include docs + usage examples.

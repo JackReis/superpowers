@@ -43,3 +43,6 @@ This repo is part of an 18-repo portfolio coordinated from the `=notes` vault.
 - Canonical artifacts are skills/agents/commands; prioritize contract quality.
 - Validation minimum: schema/format conformance + example usability.
 - When adding new capabilities, include docs + usage examples.
+
+## SESSION LOGGING
+Mandatory Requirement: Maintain immaculate session logs across ALL repositories in the ecosystem. Every session must result in a detailed log in 'logs/sessions/YYYY-MM/' (or the repository's designated log directory), capturing objectives, achievements, changes committed, and next actions. This is a core responsibility of both Neo (Orchestrator) and PT (Lead Engineer) to preserve context and ensure seamless multi-session coordination.

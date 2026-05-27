@@ -3,6 +3,7 @@
 This repository inherits operational policy from:
 - Global baseline: `/Users/jack.reis/Documents/=notes/CLAUDE.md`
 - Domain contract: `/Users/jack.reis/Documents/=notes/claude/contracts/DOMAIN-PLUGINS-AGENTS.md`
+- Plugin schema policy: `/Users/jack.reis/Documents/=notes/docs/architecture/plugin-capability-schema-policy.md`
 
 ### Default complex-task behavior
 - Plan first using `superpowers:writing-plans`
@@ -38,6 +39,7 @@ This repo is part of an 18-repo portfolio coordinated from the `=notes` vault.
 - Any capability change must include usage docs/examples.
 - Keep plugin/skill APIs stable where possible; note breaking changes explicitly.
 - Preserve provider-agnostic interfaces and adapter boundaries.
+- Preserve Superpowers' portable skill frontmatter model: `name` and `description` are the source-protocol minimum. Do not add Dancer package fields such as `allowed-tools` or `version` unless an adapter-specific note requires them.
 
 ## Local Overrides — Command Truth
 - Canonical artifacts are skills/agents/commands; prioritize contract quality.

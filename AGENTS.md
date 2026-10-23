@@ -119,3 +119,13 @@ Before proposing changes to skill design, workflow philosophy, or architecture, 
 - One problem per PR
 - Test on at least one harness and report results in the environment table
 - Describe the problem you solved, not just what you changed
+
+---
+
+## Fleet Portfolio Overlay (`JACK-GREEN-PHOENIX` · `aegis-2.1`)
+
+This fork (`JackReis/superpowers`) tracks upstream `obra/superpowers` (`v7.0.1`+) and carries the fleet-specific `skills/ob1-lifecycle/SKILL.md` (`OB1` local brain `:8787` + `OBn` vault-local memory auto-brief/auto-drain) alongside the `.claude/` portfolio stack metadata.
+
+- **Global baseline:** `~/Documents/=notes/CLAUDE.md` (Talaris) / `~/=notes/CLAUDE.md` (Aegis)
+- **Domain contract:** `=notes/claude/contracts/DOMAIN-PLUGINS-AGENTS.md`
+- **Repository remote policy:** GitHub (`JackReis/superpowers`) is primary `origin`; upstream is `https://github.com/obra/superpowers.git` (`v7.0.1`).
